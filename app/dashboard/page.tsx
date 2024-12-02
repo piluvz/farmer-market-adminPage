@@ -169,8 +169,8 @@ const Dashboard = () => {
                     <tr key={user.id} className="hover:bg-gray-50">
                       <td className="px-6 py-4 text-gray-700">{user.id}</td>
                       <td className="px-6 py-4 text-gray-700">{user.first_name} {user.last_name}</td>
-                      <td className="px-6 py-4 text-gray-700">location</td>
-                      <td className="px-6 py-4 text-gray-700">farm_size</td>
+                      <td className="px-6 py-4 text-gray-700">Kazakhstan</td>
+                      <td className="px-6 py-4 text-gray-700">{`${Math.floor(Math.random() * (100 - 10 + 1)) + 10} ha`}</td>
                       <td className="px-6 py-4">
                         <button
                           onClick={() => handleOpenModal(user)}
